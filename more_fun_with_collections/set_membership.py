@@ -1,3 +1,6 @@
 
 def in_set(s, e):
-    pass
+    if e in s:
+        return True
+    else:
+        return False
