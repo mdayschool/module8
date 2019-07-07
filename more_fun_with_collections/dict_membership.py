@@ -1,3 +1,6 @@
 
 def in_dict(d, k):
-    pass
+    if k in d:
+        return True
+    else:
+        return False
